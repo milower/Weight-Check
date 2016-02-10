@@ -26,6 +26,7 @@ public class MyOpenHelper extends SQLiteOpenHelper{
 
 
 
+
     public MyOpenHelper(Context context) {
     super(context,database_name,null,database_version);
     //ทำการเชื่อมต่อ ค้นหาชื่อและตรวจสอบเวอร์ชั่น
