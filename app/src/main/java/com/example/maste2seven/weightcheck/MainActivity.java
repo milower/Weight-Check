@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         //requestdatabase
         objMyManage = new MyManage(this);
 
@@ -36,4 +35,4 @@ public class MainActivity extends AppCompatActivity {
         }
         objCursor.close();
     }
-}//main classr
+}//main class
